@@ -10,14 +10,14 @@ URL: https://www.odsc.com/boston
 
 ###DAY 1
 
-**A. Open Health Data*
+**A. Open Health Data**
 
 - think of JSON as the "CSV for the Internet Era"
 - ```seaborn``` library in Python for dataviz
 
 **B. Keynote: Stefan Karpinski**
 
-- [Stefan Karpinski](http://karpinski.org/)
+- speaker: [Stefan Karpinski](http://karpinski.org/)
 - [numFocus](http://www.numfocus.org/)
 - [Ousterhout's dichotomy](https://en.wikipedia.org/wiki/Ousterhout%27s_dichotomy):
 	- high-level programming languages are either "system programming" or "scripting" languages
@@ -39,7 +39,7 @@ URL: https://www.odsc.com/boston
 
 **D. Keynote: Kirk Borne**
 
-- spaker: [Kirk Borne data ethics course](http://kirkborne.net/cds151/)
+- speaker: [Kirk Borne data ethics course](http://kirkborne.net/cds151/)
 - "every person is a scientist...testing the world"
 - "IBM Scout" app for the NBA
 - "absence of evidence is not evidence of absence"
@@ -117,7 +117,7 @@ URL: https://www.odsc.com/boston
 	
 **J. Julia pt 2**
 
-- [Stefan Karpinski](http://karpinski.org/)
+- speaker: [Stefan Karpinski](http://karpinski.org/)
 - profiler
 - multiple dispatch:
 	- Julia functions with multiple methods for various input types

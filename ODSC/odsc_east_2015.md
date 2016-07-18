@@ -34,7 +34,7 @@ URL: http://bos2015.opendatascicon.com/
 - most common backgrounds: statistics, computer science
 - "our competitions choose us"
 
-**B. Keynote: Josh Wills"
+**B. Keynote: Josh Wills**
 
 - speaker: [Josh Wills](https://twitter.com/josh_wills)
 - "we have done a job of convincing the world that our job is terrible"
@@ -102,7 +102,7 @@ URL: http://bos2015.opendatascicon.com/
 - "innovation works through information-sharing"
 - "LAN Challenge Corp" --> web data, telecomm network science
 
-**F. Making R Go Faster & Better"
+**F. Making R Go Faster & Better**
 
 - speaker: [Jared Lander](http://www.jaredlander.com/about/)
 - three performance hurdles:
@@ -171,7 +171,7 @@ URL: http://bos2015.opendatascicon.com/
 - RStudio has "performance profilers"
 - jaredlander.com/talks
 
-**G. Crowd-Sourced DS competitions"
+**G. Crowd-Sourced DS competitions**
 
 - speaker: [Mark Higgins](https://www.linkedin.com/in/mark-higgins-63b0264)
 - most data scientists are new to the field
@@ -479,7 +479,7 @@ URL: http://bos2015.opendatascicon.com/
 
 ### TOOLS
 
-**A. R Packages **
+**A. R Packages**
 
 - [ff](https://cran.r-project.org/web/packages/ff/index.html): memory-efficient storage of large data on disk
 - [bigmemory](https://cran.r-project.org/web/packages/bigmemory/index.html): shared memory and memory-mapped files
