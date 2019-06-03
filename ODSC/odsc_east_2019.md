@@ -96,6 +96,7 @@ Boston, MA
 **C. Achieving Salesforce-Scale Machine Learning in Production**
 
 - speaker: Sarah Aerni. Director of Data Science, Einstein Platform
+- older version: https://www.youtube.com/watch?v=jlAwCuGpHKk
 - flavors of ML in prod
     + "models that inform strategic decisions" (data-driven drug discovery)
     + "models that are products" (chatbots, algorithmic trading)
