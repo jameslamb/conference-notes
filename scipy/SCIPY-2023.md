@@ -1,4 +1,4 @@
-# SciPy 2022
+# SciPy 2023
 
 ## Day 1
 
