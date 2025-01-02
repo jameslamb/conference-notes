@@ -66,7 +66,7 @@
 		- choose unqisely, such as avoidable visits to an ER
 	- reduce unjustifiably wide variance and overall level of prices
 - problem: "there are providers for whom we want to predict prices, but we have no claims"
-- you can predict quantiles with "qualit regression forest" technique
+- you can predict quantiles with "quality regression forest" technique
 - Castlight floats recommendations like:
 	- where should I get this type of care?
 	- what are my self-care options?
@@ -110,12 +110,12 @@
 	- combines ML, SQL, streaming
 	- extends Scala idioms, as well as R/Python DataFrame idioms
 - what is Apache SystemML?
-	- machine learning sysem for running distributed linear algebra on top of Apache Spark
+	- machine learning system for running distributed linear algebra on top of Apache Spark
 	- exposes high-level R-like and Python-like languages focused on linear algebra
 	- APIs for Python, Scala, Spark
 - takeaways:
 	- Nice case study for a small-scale use case to a bigger validation study
-	- if youn understand your data and the assumptions behind it, you can create a more tractable ML problem
+	- if you understand your data and the assumptions behind it, you can create a more tractable ML problem
 
 **F. Data Viz and Design Thinking**
 
@@ -163,6 +163,3 @@
 	- once you know this, you can start sunsetting models
 	- and then really pick up a regular cadence of updating models and sunsetting old ones
 - **Better data will always beat better models**
-
-
-

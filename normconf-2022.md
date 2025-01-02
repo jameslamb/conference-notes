@@ -158,7 +158,7 @@
     - especially for recommenders! They did this at Spotify and it was fine.
     - keep serving the simple stuff for as long as you can
 * recommender systems are "about, by, and for people"
-* 
+*
 
 # Things to Google
 

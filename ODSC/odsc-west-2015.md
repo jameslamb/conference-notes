@@ -35,7 +35,7 @@ URL: https://www.opendatascience.com/tag/odsc-west-2015/
 	- recall
 - see ["Natural Language Processing with Python"](http://shop.oreilly.com/product/9780596516499.do)
 - IPnotebook:
-	- combine code executtion, rich text, math, plots, rich media
+	- combine code execution, rich text, math, plots, rich media
 - the text analytics project pipeline:
 	- lots of building blocks
 	- value increases as you progress, but errors amplify as you combine tasks
@@ -54,7 +54,7 @@ URL: https://www.opendatascience.com/tag/odsc-west-2015/
 	- normalizing --> [stemming](https://en.wikipedia.org/wiki/Stemming)
 	- stems: spoken --> spoke
 	- lemmas: spken --> speak
-	- in search: "deal with the stemming issue at the poitn of index and at the point of search"
+	- in search: "deal with the stemming issue at the point of index and at the point of search"
 	- [WordNet](https://wordnet.princeton.edu/) --> lemmas, root dictionary
 	- lots of publicly-available groundtruth
 	- there are some statistical tools built into NLTK
@@ -246,7 +246,7 @@ URL: https://www.opendatascience.com/tag/odsc-west-2015/
 - array --> consistent types, no metadata
 - progress to Julia 1.0:
 	- native multithreading (Intel)
-	- string represetation rewrite
+	- string representation rewrite
 	- garbage cleaning improvements
 	- doc system improvements
 	- better support for multiple types
@@ -293,9 +293,9 @@ URL: https://www.opendatascience.com/tag/odsc-west-2015/
 - be careful about dependencies
 - scit-kit learn works on a single node
 - Hadoop is made for "commodity hardware"
-- goood performance from Spark requries a lot of RAM
+- goood performance from Spark requires a lot of RAM
 	- hard to know how the cluster should look
-- Spark shoudl run on any hardware
+- Spark should run on any hardware
 - Spark is being used more in iterative machine learning work
 	- recovery model makes it tough for large-scale ETL
 	- complex ETL logic is harder in Spark
@@ -363,7 +363,7 @@ URL: https://www.opendatascience.com/tag/odsc-west-2015/
 	- preprocesses the data
 	- build features
 - almost always better to build features:
-	- ratios are hard for comptuers to solve
+	- ratios are hard for computers to solve
 - "build features to collapse information into one record"
 - problem: too many high cardinality categorical variables
 	- ignore them or bin them manually
@@ -375,7 +375,7 @@ URL: https://www.opendatascience.com/tag/odsc-west-2015/
 - this is why you see firms open-sourcing algorithms...the money is in the data!
 - key takeaway: build lots of features!
 
-	
+
 ### DAY 2
 
 **A. Ibis**
@@ -458,7 +458,7 @@ URL: https://www.opendatascience.com/tag/odsc-west-2015/
 	- just compile a rack of servers and run any job you want
 - "the larger the single machine, the finer patterns you can see"
 - TidalSCale has 3 POC systems available for testing
-- you get "All of the resources"	
+- you get "All of the resources"
 	- more external ports, DVD-ROM, etc.
 - on-premise
 	- virtualization "on the hardware"
@@ -473,8 +473,8 @@ URL: https://www.opendatascience.com/tag/odsc-west-2015/
 - nowcasting
 	- breaks national accounts structure
 	- adapted for sporadic data
-- dont' be afraid to take partial entries
-- CB communcation --> not a pure "Data science" solution
+- don't be afraid to take partial entries
+- CB communication --> not a pure "Data science" solution
 	- [greenspan briefcase watch](http://money.cnn.com/1999/06/29/economy/fed_briefcase/)
 - "words are data"
 - experts are biased

@@ -58,7 +58,7 @@ URL: https://www.odsc.com/boston
 - [active learning](https://en.wikipedia.org/wiki/Active_learning_(machine_learning)) - feedback in machine learning from human-in-the-loop
 - USPS used OCR as early as 1982
 	- with human in the loop + active learning, they get better with every mistake
-	
+
 **F. Notebooks with R Markdown**
 
 - speaker: [JJ Allaire](https://en.wikipedia.org/wiki/Joseph_J._Allaire)
@@ -114,7 +114,7 @@ URL: https://www.odsc.com/boston
 - [profile likelihood](https://www.stat.tamu.edu/~suhasini/teaching613/profile_likelihood.pdf)
 - profile likelihood is not sclaable
 	- long-ish computate time
-	
+
 **J. Julia pt 2**
 
 - speaker: [Stefan Karpinski](http://karpinski.org/)
@@ -158,12 +158,12 @@ URL: https://www.odsc.com/boston
 	- [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) = a measure of similarity between two vectors measuring the cosine of the angle between them
 - Visual PageRank:
 	- measure representativeness of images in their cluster
-	
+
 **B. Time Series Classification**
 
 - speaker: [Mike Segala](https://www.linkedin.com/in/michael-segala-ph-d-5a65654b) of [SFL Scientific](http://sflscientific.com/)
 - [Dynamic Time Warping (DTW)](http://www.psb.ugent.be/cbd/papers/gentxwarper/DTWalgorithm.htm)
-	- time series alighment algorithm (originally designed for speech recognition w/ delays)
+	- time series alignment algorithm (originally designed for speech recognition w/ delays)
 	- a modern distance metric
 - traditional:
 	- typical classification applied after removing temporal dynamics

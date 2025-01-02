@@ -193,7 +193,7 @@ kornia = ivy.transpile(kornia, to="tensorflow")
     - pull requests, code reviews
 - CML
     - command line tool for CI/CD for machine learning projects
-- CML kicks off a model training runing in a cloud runner, then posts back a comment with a report
+- CML kicks off a model training running in a cloud runner, then posts back a comment with a report
 - merging the PR deploys the model
 - see gitlab.com/alex000kim/cml-cloud-case for an example
     - it's cool that you format what ends up in the GitHub format but just `cat`-ing stuff to a markdown file
@@ -209,7 +209,7 @@ kornia = ivy.transpile(kornia, to="tensorflow")
 
 - speaker: Jack McCauley, founder, Oculus VR
     - inventor of Scrolling Mouse
-    - Advisor 
+    - Advisor
 - he was the chief engineer of Guitar Hero
 - "one of the problems in the metaverse is online bullying"
     - people in the metaverse, because they can hide behind an avatar, are "making comments you'd never make to someone you met in the street"

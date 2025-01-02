@@ -39,7 +39,7 @@ https://live.odsc.com/
 * you can also share a single cell and send it to someone
     - you could share the code or share the cell as a little bit of HTML
 * if you run a cell like `!pip install <whatever>`, DeepNote won't let you. It will force you to update a `requirements.txt` file
-* you can even get kicked to a text editor with a Dockefile
+* you can even get kicked to a text editor with a Dockerfile
 * you can click a little clock and say "schedule this notebook"
     - you can even sign up to get a PDF of the notebook emailed to you after each run
 
@@ -69,7 +69,7 @@ https://live.odsc.com/
 * they have a "Data Science center of excellence" or some shit
 * to get people a LibMutual involved in doing data science work, they ran an internal data science competition
     - to encourage best practices, they also refused to pay out prizes for teams that did not do reproducible work
-* one data scientist gave his firsthand experience and said he learned a ton of stuff by being foreced to comply with the reproducibility rules
+* one data scientist gave his firsthand experience and said he learned a ton of stuff by being forced to comply with the reproducibility rules
 
 # Day 2
 
@@ -109,7 +109,7 @@ they were trash
 ## D. Enterprise ready ML Model Training on Hybrid Cloud, leveraging Kubernetes
 
 * speaker: Saurya Das
-* "install any OSS Kubernetes and isntall Arc agent"
+* "install any OSS Kubernetes and install Arc agent"
 
 ## E. Going Beyond Matplotlib and Seaborn: A survey of Python Data Visualization Tools
 

@@ -8,7 +8,7 @@
 * "smart" = an ML backend, an application interface
 * data visualization as a tool to build trust from humans
 * "I'm using visualization as a mediator"
-* GANpaint --> interactively editt a picture  with GANs
+* GANpaint --> interactively edit a picture  with GANs
     - http://ganpaint.io/
 * "browsing" is like "looking around without an exact gooal in mind"
     - that is a different experience than search, where you have a specific goal in mind
@@ -36,10 +36,10 @@
 * company: `dotscience`
     - https://dotscience.com/
 * they literally have a "deploy" button
-    - that will create a new deplyment in Kubernetes, and they give you a Grafana dashboard for it out of the box
+    - that will create a new deployment in Kubernetes, and they give you a Grafana dashboard for it out of the box
     - of COURSE  the moodel they came up with is a computer vision "is this a stop sign" type model
     - they made a little predictor where you click "predict" to send an image file
-    - 
+    -
 
     ticket for Amazon equipment: 0311490290
 
@@ -82,4 +82,4 @@
 * strava example:
     - Strava app outlined where secret military bases were
     - https://www.theguardian.com/world/2018/jan/28/fitness-tracking-app-gives-away-location-of-secret-us-army-bases
-* 
+*

@@ -16,10 +16,10 @@ Santa Clara, CA
 - firm: Intel
 - the next stage after prescriptive analytics: "cognitive analytics"
 	- develop systems to ask the right question based on context
-- "the science of artifical intelligence is the science of data"
+- "the science of artificial intelligence is the science of data"
 - the value of our skillsets to corporations is increasing
 - Deep Learning:
-	- field moving from feature engineering to toplogy engineering and network design
+	- field moving from feature engineering to topology engineering and network design
 - autonomous vehicles need to:
 	- recognize where they are on the road
 	- recognize presence of objects
@@ -36,7 +36,7 @@ Santa Clara, CA
 	- increasing importance of deployment concerns, reliability at the edge
 	- how might you continuously monitor and improve your models with feedback from downstream?
 - three reqs for data-driven AI future:
-	- flexibility (need to be able to handle variations in which data streams are avaiable at any moment)
+	- flexibility (need to be able to handle variations in which data streams are available at any moment)
 	- robustness (need to be able to gracefully handle variations in quality of our data streams)
 	- continuity (need a process to monitor what's happening at the edge, pull in feedback, re-train, redeploy)
 - AI can augment human capabilities
@@ -103,7 +103,7 @@ Santa Clara, CA
 - another obstacle:
 	- no open source roadmap
 	- Scala, Python, XGBoost, R, Python, Java
-- if you're a manager at a Fortune 500 company, you can't obviously sift through all the bullshit in open soure
+- if you're a manager at a Fortune 500 company, you can't obviously sift through all the bullshit in open source
 - holding us back:
 	1. dark lord Sauron (SAS)'s stranglehold over mission-critical stuff
 - look forward to the machine-learning arms race
@@ -128,7 +128,7 @@ Santa Clara, CA
 - problem: high-dimensional clustering
 - self-organizing map = SOM
 	- not practical currently
-	- applicaiton: clustering wells based on microbial profile data
+	- application: clustering wells based on microbial profile data
 - k0- means = you provide the number of clusters
 - SOMs will figure out how many clusters you have
 - "similar colors end up next to each other spatially"
@@ -192,7 +192,7 @@ Santa Clara, CA
 	- Google will automatically tag your photos
 - Inbox by Gmail
 	- will look at the context of the email and recommend a response
-	- around 10% of reponses on Inbox
+	- around 10% of responses on Inbox
 - Google Translate w/ Neural Machine Translation
 - Neural Net model for improving resource allocation in a data ceneter
 	- improved power usage effectivieness (PUE) by 15%
@@ -218,7 +218,7 @@ Santa Clara, CA
 - it's really hard and expensive to build and maintain GPU cluster
 - TensorFlow for windows is coming soon
 	- TensorFLow can call predict on the cloud or mobile/IoT devices (you don't need your own prediction server)
-	- portable across OS (e.g. trainin on Mac/Windows, predict on Android, iOS, RasPi)
+	- portable across OS (e.g. training on Mac/Windows, predict on Android, iOS, RasPi)
 	- offers distributed training
 - democratization of deep Learning
 	- look at [TensorFlow powered Cucumber Sorter](https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow)
@@ -247,7 +247,7 @@ Santa Clara, CA
 	- "it's often easy to do better than random"
 	- you are presenting a "challenger model"...not the first one
 - most classification models return probabilities or at least are naturally geared that way
-- p-value on AUC is "probability that a null model (useless model) could achieve perforamnce at least this good by chance"
+- p-value on AUC is "probability that a null model (useless model) could achieve performance at least this good by chance"
 - R package --> sigr
 	- formats results close to American Psychological Association standards
 - you cannot pass a frequentist significance test
@@ -260,7 +260,7 @@ Santa Clara, CA
 	- they pretty much never mean accuracy
 - AUC + deviance let you worry about what to do with your qualifier
 - Z and p
-	- p is uniformly distirbuted in the interval [0,1]. If you have no effect, you don't get a p of 1
+	- p is uniformly distributed in the interval [0,1]. If you have no effect, you don't get a p of 1
 	- Z is roughly normally distributed with standard deviation 1
 - if there is an effect:
 	- Z goes to infinity as n increases
@@ -293,7 +293,7 @@ Santa Clara, CA
 	- stack up some more complicated base learners
 	- extension of hyper-param tuning
 	- strong learners, higher-complexity meta-model
-	- "can I jsut keep all my models?"
+	- "can I just keep all my models?"
 - another form: "mixture of experts"
 	- take high-complexity base learners
 	- change weights for combination by a gating function
@@ -302,7 +302,7 @@ Santa Clara, CA
 - any pre-model fitting task that uses knowledge of outcome is a nested model
 	- variable treatment
 	- hyperparameter tuning
-	- scaling of the varibales
+	- scaling of the variables
 	- Y-aware dimension reduction
 - see [H2OEnsemble](https://github.com/h2oai/h2o-3/tree/master/h2o-r/ensemble)
 	- also [SuperLearner](https://cran.r-project.org/web/packages/SuperLearner/SuperLearner.pdf)
@@ -342,7 +342,7 @@ Santa Clara, CA
 
 - speaker: Dr. Ali Marami
 - firm: R-Brain
-- R-to-Python in memoery:
+- R-to-Python in memory:
 	- %R magic and %Rpush
 - through  disk
 	- CSV files
@@ -360,14 +360,14 @@ Santa Clara, CA
 
 - speaker: Stu Bailey
 - firm: Open Dta Group
-- lots of focus in reasearch on finding/designing better analytics
+- lots of focus in research on finding/designing better analytics
 	- but this doesn't move much the actual value to the organizaiton
-	- but if you can't get it into produciton, does it really matter?
+	- but if you can't get it into production, does it really matter?
 - you need to start measuring deployment metrics
 - ODG experience:
 	- most companies don't have people institutionalized analytic ops
 	- you usually find a few people w/ good people skills who just make the deployment happen
-	- "Anaytics Ops"
+	- "Analytics Ops"
 - four challengins in analytics deployment:
 	- IT needs to manually recode models
 	- compmlex models are hard to deploy
@@ -390,10 +390,10 @@ Santa Clara, CA
 - A "model"
 	- input that is well-typed (AVRO schema)
 	- output that is well-typed (AVRO schema)
-	- intialization - run once
+	- initialization - run once
 	- action - the math
 - a stream:
-	- scema = an AVRO schema
+	- schema = an AVRO schema
 	- format = JSON, AVRO binary, text
 	- identifier = Kafka Topic (pub/sub), file name, port
 - "we tend to like Docker as a platform for deploying analytics"
@@ -434,7 +434,7 @@ Santa Clara, CA
 - "index-free adjacency"
 	- no index used to look up all the nodes a node is connected to
 	- local traversal will have the same performance regardless of graph size...as long as you start from a well-defined starting point
-	- in contrast: a JOIN in something relational is based on an overlap of two sets (perforamnce breaks down w/ bigger datasets)
+	- in contrast: a JOIN in something relational is based on an overlap of two sets (performance breaks down w/ bigger datasets)
 - so how do you find well-defined starting points?
 	- you should be searching based on indexed properties
 	- ```CREATE INDEX ON :Person(name)```
@@ -467,9 +467,9 @@ Santa Clara, CA
 - what is your "out of sight"?
 	- people need to see it and feel it before they can believe it?
 - **definition**: Stories are...
-	1. made of facts 
-	2. that are wrapped in emotions 
-	3. that compel an action 
+	1. made of facts
+	2. that are wrapped in emotions
+	3. that compel an action
 	4. that changes the world
 - find this --> what is changing in your world, your industry?
 	- use that change to legitimize the story you want to tell
@@ -481,7 +481,7 @@ Santa Clara, CA
 - the exploratorium:
 	- "there are no rules on what or how to create"
 - provenance: "the more history something has, the more valuable we perceive it to be"
-	- the value is in the story	
+	- the value is in the story
 - see their [online courses](http://www.getstoried.com/redpill/) on telling your stories
 	- "if you take the red pill, you'll never see the world the same again"
 - dealing with "show me the data" when you haven't had the system to connect it yet
@@ -538,10 +538,3 @@ Q's
 - Cypher: a graph query language
 - we traverse the graph from some well-defined starting point
 	- we use an indexed lookup to find the node to start from
-
-
-
-
-
-
-

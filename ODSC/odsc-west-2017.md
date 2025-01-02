@@ -3,7 +3,7 @@
 ## Conference Details
 
 Location: San Francisco, CA
-Dates: 
+Dates:
 URL: https://www.opendatascience.com/tag/odsc-west-2017/
 
 ## Speaker Notes
@@ -31,7 +31,7 @@ URL: https://www.opendatascience.com/tag/odsc-west-2017/
 - "The Deontology of data science"
 - the math roots our our science:
     + Pascal - probability
-    + Bayes - conditionaly probability
+    + Bayes - conditionally probability
     + Gauss - normal distribution
 - the compsci roots:
     + Alan Turing
@@ -47,11 +47,11 @@ URL: https://www.opendatascience.com/tag/odsc-west-2017/
 - "we've seen the data science community come together and start to collaborate on certain types of problems":
     + Jupyter (interactive, reproducible research)
 - "everyone (regardless of framework) needs to read files"
-- 
+-
 
 **I. Monetization Strategies for ML Engines**
 
-- ANI = "artifical narrow intelligence"
+- ANI = "artificial narrow intelligence"
 - AGI = "artificial general intelligence"
 - ASI = "artiificial super intelligence"
 - This company is trying to build an "AI operating system"P
@@ -152,7 +152,7 @@ URL: https://www.opendatascience.com/tag/odsc-west-2017/
 - ways to reduce FPs
     - removing unnecessary sensors
     - checking for faulty sensors
-    - examine maintence history
+    - examine maintenance history
     - using persistence (x point in alarm zone continuously)
 - next steps:
     + using transfer learning to take one model and apply it to other assets
@@ -206,7 +206,7 @@ pipeline predict-server-build --model-type=tensorflow --model-name=mnist --model
     + http://google.github.io/tracing-framework
 - "distributed Tensorflow has had a rocky road"
     + Google docs are way more up to date than Tensorflow.org
-- advice: user a good cluser orchestrator (Kubernetes, Mesos)
+- advice: user a good cluster orchestrator (Kubernetes, Mesos)
 - you can subscribe to people on Stack Overflow
     + and get a daily update of what people answer
 - it's not uncommon to see Tensorflow choose a route through the the graph that consumes too much memory
