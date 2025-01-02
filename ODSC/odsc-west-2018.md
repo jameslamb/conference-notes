@@ -3,7 +3,7 @@
 ## Conference Details
 
 Location: San Francisco, CA
-Dates: 
+Dates:
 URL: https://www.opendatascience.com/tag/odsc-west-2018/
 
 ## Speaker Notes
@@ -16,5 +16,4 @@ URL: https://www.opendatascience.com/tag/odsc-west-2018/
 
 - neural networks are code
 - "software 2.0 code" = instead of literally writing imperative code to solve a problem, let a model go on it
-- 
-
+-

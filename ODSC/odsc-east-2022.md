@@ -139,7 +139,7 @@ df.astype({
 * TFX uses Apache Beam
 * with TFX, you can even bring a non-Tensorflow model
 * types of custom components:
-    - python funciton w/ decorator and annotations
+    - python function w/ decorator and annotations
     - components using containers
 * Waze uses TFX for large-scal data with low inference latency
 * "Spotify was an early adopter of Kubeflow pipelines"
@@ -167,7 +167,7 @@ df.astype({
 * this is kind of a framework for deciding when to stop a competition
     - or, for a research team, when to stop working on a problem
 * ensembling is "unreasonably effective"
-* for ensembling multi-class classification probabilities, you could convert them all to logits, then average, then 
+* for ensembling multi-class classification probabilities, you could convert them all to logits, then average, then
 
 # Day 2
 
@@ -200,12 +200,12 @@ df.astype({
 * oh classic, he started by just importing a `train.csv`
 * PyCaret has "a connection to pandas-profiling"
 * W&B allows you to see a leader board between different models
-* `nbdime` can be used to comapre notebooks
+* `nbdime` can be used to compare notebooks
 * used Prefect Cloud + a Prefect Agent running in a Colab notebook :whoa:
 
 ## D. Distributed Python with Ray: Hands-on with the Ray Core APIs
 
-* speaker: Stephanie Wang (engineer at Anyscale and lead comitter for Ray)
+* speaker: Stephanie Wang (engineer at Anyscale and lead committer for Ray)
 * Ray was built at Berkeley
     - in the labs that built Apache Spark, Caffe, Apache Mesos
 * architecture
@@ -230,7 +230,7 @@ df.astype({
     - `pip.conf`
     - `odbc.ini`
 * challenges with "engines"
-    - 1 engine version = 1 Python verison, 1 R version
+    - 1 engine version = 1 Python version, 1 R version
     - no support for arbitrary jupyter kernels
     - images must extend Cloudera base image (no other operating systems)
     - bloated docekr images due to installing everything in 1 image

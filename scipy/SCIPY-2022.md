@@ -53,7 +53,7 @@
 - coming in sciki-learn 1.1, `HistGradientBoostingClassifier` will support quantile regression
 - "lots of improvements taking advantage of `scipy` and OpenMP"
     - upgrade and it "just runs faster"
-- transformers and pipelines now support `get_feature_names_out()` to extract feature nammes
+- transformers and pipelines now support `get_feature_names_out()` to extract feature names
 
 ### G. Geospatial analysis and visualization with PyGMT
 
@@ -81,7 +81,7 @@
 ### I. Pylira: deconvolution of images in the presence of Poisson noise
 
 - speaker: axel donath
-    - "a gamma ray andd x-ray astronomer, working at Harvard Smithsonian in Boston"
+    - "a gamma ray and x-ray astronomer, working at Harvard Smithsonian in Boston"
     - CHASC (Astro-Statistics Collaboration)
         - github.com/astrostat
     - one of the lead developers of gammapy
@@ -129,7 +129,7 @@
 
 ### Lightning Talks
 
-- Can a neural network trained on images of the physical world recogize cartoons?
+- Can a neural network trained on images of the physical world recognize cartoons?
     - twitter.com/DJCordhose
 - "teaching signal processing to musicians with jupyterbook"
     - https://bit.ly/dstbook-scipy
@@ -215,7 +215,7 @@
     - adding support for Dask, CuPy backend
 - metPy
     - Python tools for meteoroloogy
-    - added suppoort for Dask
+    - added support for Dask
 - sympy
     - a Python library for doing "symbolic mathematics"
     - adding Jax support
@@ -262,11 +262,11 @@ class MyFlow(FlowSpec)
 - by 2015, "you could do a lot of high-energy physics in the Python stack"
     - and that included using these ROOT files
 - dealing with "jagged" data was a problem
-- `uproot` was a ROOT fille reader + writer, and installing it was as easy as `pip install uproot`
+- `uproot` was a ROOT file reader + writer, and installing it was as easy as `pip install uproot`
 - awkward array was ddeveloped to support `uproot`
     - "jagged arrays", where you have a variable nuumber of values in each "row"
     - originally HEP focused, but nnow more general
-    - this was first written in pure Python, but now has some compiiledd codde in it
+    - this was first written in pure Python, but now has some compiled code in it
 - `pybind11`
     - preferred over Cython / SWIG for `awkward` and `uproot`
 - building redistributable wheels is tough
@@ -276,7 +276,7 @@ class MyFlow(FlowSpec)
     - develwheel, auditwheel, delocate
 - could use `azure-wheel-helpers` to build redistributable wheels
     - https://iscinumpy.dev/categories/azure-devops
-    - tied only to Azure DevOps, small number of userrs
+    - tied only to Azure DevOps, small number of users
 - tried `cibuildwheel` next
     - not tied to any one CI system
     - large number of users
@@ -354,9 +354,9 @@ class MyFlow(FlowSpec)
     - 3 - does majority group vote in a bloc preventing minority voters from electing their preferred candidate?
 - the U.S. uses secret ballots, so you can't directly measure a breakdown of votes by characteristic like race or gender
 - you can cross-reference demographic data from the census and voting records summarized at a precinct level
-    - bounded by the total number of registered voters andd ballots cast
+    - bounded by the total number of registered voters and ballots cast
 - "ecological regression"
-    - fraction of vote for a candidate depends linearly on the fraction of the population in that grooup
+    - fraction of vote for a candidate depends linearly on the fraction of the population in that group
 - more recently, Bayesian hierarchical model is used for EI ("ecological inference")
 - they use PyMC + Jax
 - PyMC = "efficient markov chain monte carlo sampling"
@@ -377,7 +377,7 @@ class MyFlow(FlowSpec)
     - you can also get release candidates from conda-forge
     - it's possible to publish nightly wheels to PyPI
     - github.com/tacaswell/build_the_world
-        - buch oof shell sccripts that builds CPython all the way up to like `pandas`
+        - buch oof shell scripts that builds CPython all the way up to like `pandas`
     - `pip install --no-build-isolation`
 - cadCAD: modeling library for generalized dynamical systems
     - "compleze adaptive dynaimics computer aided design"
@@ -415,7 +415,7 @@ class MyFlow(FlowSpec)
 
 ### A. Introduction
 
-- back in the day, "Hubble was comitted to Python even when Python wasn't cool"
+- back in the day, "Hubble was committed to Python even when Python wasn't cool"
 - "the first image of a black hole I saw was through matplotlib"
 - SciPy 2023 will be transitionedd to NumFOCUS
 
@@ -510,7 +510,7 @@ class MyFlow(FlowSpec)
 - e.g. `prefect-slack`, `prefect-twitter`
 - `prefect deployment create`
     - Prefect has a "deployments" concept whiich is like a flow + scheduling
-- Flyte is k8s-native, andd assumes that everything is in containers
+- Flyte is k8s-native, and assumes that everything is in containers
     - "we have a lot of people who learn prefect soon after they learn Python"
     - Dagster, Flyte are more opinionated than Prefect
 
@@ -524,7 +524,7 @@ class MyFlow(FlowSpec)
 - in panel, you can choose a configurable "backend" for widgets
 - `pn.state.location.sync()`
     - programmatically update the state of a visual element
-- Panel creates interactive visualizatioons, and you can then run Python code to upddate their state :mind_blown:
+- Panel creates interactive visualizatioons, and you can then run Python code to update their state :mind_blown:
 - panel state give you a bunch of options to modify the visual state of apps programmatically
 
 ### M. How do you test data workflows?
@@ -543,7 +543,7 @@ class MyFlow(FlowSpec)
 - `bandit` (security static analysis)
 - `pip-audit`
 
-### N. pybind11 and buildding C extensions panel
+### N. pybind11 and building C extensions panel
 
 - feedstocck maintainers can talk to conda-forge about archiving things
 - PEP 517, 518

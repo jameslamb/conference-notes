@@ -140,7 +140,7 @@ URL: http://bos2015.opendatascicon.com/
 	- plyr.parallel
 	- foreach
 	- aggregate
-- what heppens when it doesn't fit in memoty?
+- what heppens when it doesn't fit in memory?
 - "A TB of RAM should be the new American Dream"
 - [bigmemory package](https://cran.r-project.org/web/packages/bigmemory/bigmemory.pdf)
 	- R objects that you can see, but they sit on disk
@@ -231,13 +231,13 @@ URL: http://bos2015.opendatascicon.com/
 - dimensionality reduction:
 	- [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis)
 	- [Factor Analysis](https://en.wikipedia.org/wiki/Factor_analysis)
-	- [clustering](https://en.wikipedia.org/wiki/Cluster_analysis) 
+	- [clustering](https://en.wikipedia.org/wiki/Cluster_analysis)
 - model stacking --> outputs of one model become inputs of another
 	- if you do this, use different data for different sets
 - Next big advances won't come from new modelling tools
 	- feature engineering is a big deal
 	- domain experience is very important still
-	
+
 **I. Learning to Love Bayesian Statistics**
 
 - speaker: [Allen Downey](http://www.allendowney.com/wp/)
@@ -280,7 +280,7 @@ URL: http://bos2015.opendatascicon.com/
 - [Trec KBA 2014 corpus](http://trec-kba.org)
 - "vital" docs change entity profile, usually changing slot
 - entity linker:
-	- not just "filling in the sutff you know you should know"
+	- not just "filling in the stuff you know you should know"
 	- ALSO --> give you new, exciting information
 - human-in-the loop = active learning
 - Diffeo --> accelearing curation of the knowledge base
@@ -297,7 +297,7 @@ URL: http://bos2015.opendatascicon.com/
 - crosswikis
 - [memex project](http://opencatalog.darpa.mil/MEMEX.html)
 - the goal: "your specific knowledgebase"
-	
+
 ### DAY 2
 
 **A. On-Demand Environments with Jupyter and IPN**
@@ -314,7 +314,7 @@ URL: http://bos2015.opendatascicon.com/
 - github.com/jupyter/jupyterhub
 - Berkeley using this campus-wide
 - set-up a Docker container with all the packages and dependencies
-	- just give people the linke and each user gets their own turnkey server
+	- just give people the link and each user gets their own turnkey server
 - ["Python for Data Analysis"](http://shop.oreilly.com/product/0636920023784.do) - Wes McKinney
 - beta.oreilly.com
 - "Docker Jumpstart"
@@ -323,7 +323,7 @@ URL: http://bos2015.opendatascicon.com/
 	- transformation engines
 	- version control
 - adding Jupyter as an authoring option
-- Docker - "containerizing the notebooks gave us a simple way to package up and deploy the content and all of its dependencies" 
+- Docker - "containerizing the notebooks gave us a simple way to package up and deploy the content and all of its dependencies"
 - [tmpnb](tmpnb.org) --> create quick sandboxes
 - Thebe plug-in --> minsk/singlecell
 	- separates serving of static assets from the notebook
@@ -408,7 +408,7 @@ URL: http://bos2015.opendatascicon.com/
 **E. Hybrid Approach to Data Science Project Management**
 
 - speaker: [Elaine Lee](https://www.linkedin.com/in/leeelainek)
-- Civis Analytics --> spwaned from Obama-for-America analytics team
+- Civis Analytics --> spawned from Obama-for-America analytics team
 - Chicago-based consulting firm
 - collaboration with "Github Issue Tickets"
 

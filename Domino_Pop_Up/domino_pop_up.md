@@ -33,8 +33,8 @@
 - this talk is about cleaning up human-created labels
 - speaker: Derrick Higgins, AmFam
 - "item response theory"
-    - every question on a test gives you some noisy piece of information about a latent attribuet
-- MACE (multi-annotator something somethhing):
+    - every question on a test gives you some noisy piece of information about a latent attribute
+- MACE (multi-annotator something something):
     + https://www.isi.edu/publications/licensed-sw/mace/
 
 **D. City of Chicago, West Nile**
@@ -87,7 +87,7 @@
     + guaranteeing relevant but diverse set of cars
 - trying to cut down the big block of text in results:
     + put descriptions into vector space to help identify duplicate vehicles
-- 
+-
 
 
 ## Things to Google

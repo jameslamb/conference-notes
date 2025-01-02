@@ -111,7 +111,7 @@ Speaker: Moon soo Lee, founder of Apache Zeppelin
 print('python')
 ```
 
-or 
+or
 
 ```
 %spark
@@ -145,7 +145,7 @@ select * from bank limit 100
     - Zeppelin on Microsoft Azure
 - Apache Zeppelin big idea: notebook that combine a bunch of backends fluidly and enable collaboration
 - Zeppelin does not have an official Docker image
-- Zeppelin is simple:   
+- Zeppelin is simple:
     - one daemon process
     - you connect over your browser
     - using Python, R probably fine in Docker but distributed stuff like Elasticsearch, Spark would be really hard
@@ -172,7 +172,7 @@ Speaker: Daniel Stair & Lovan Chetty, Cazena
 - remember:
     - Spark will only do what you tell it
     - you need to optimize your application-level Spark job to appropriately take advantage of parallelism
-- make sure your infrastucture is not just optimized for one use case
+- make sure your infrastructure is not just optimized for one use case
 - think about file types:
     - Parquet for Impala
     - Orc for Tez
@@ -244,7 +244,7 @@ Speaker: Max Kuhn
     - like if you try to run `knn_impute`, you are going to be storing the entire matrix of neighbors (potentially one per variable that you are imputing)
     - you cannot have nested inline function
 - the formula framework was designed when nobody though that we might have hundreds or thousands of predcitors in the model
-- model saves the formula informaiton very inefficiently and it can impact performance
+- model saves the formula information very inefficiently and it can impact performance
 - above like 1000 features, you spend more than half your time creating the design matrix
 - ways people have "bastardized" formula model to account for other roles for variables:
     - `lme4::lmer`
@@ -268,4 +268,3 @@ design_matrix <- process(rec_trained, newdata = Sacramento)
 ```
 
 - "R was originally written as a set of Fortran wrappers"
-

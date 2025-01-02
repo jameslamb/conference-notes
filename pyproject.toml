@@ -1,0 +1,13 @@
+[tool.codespell]
+ignore-words-list =[
+    "Achin",
+    "bloc",
+    "Chanel",
+    "COO",
+    "EACF",
+    "Hendler",
+    "Millenium",
+    "PostgresSQL",
+    "ROUGE",
+    "SOM",
+]

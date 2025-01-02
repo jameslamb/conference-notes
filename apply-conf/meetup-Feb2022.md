@@ -70,7 +70,7 @@ Link: https://www.applyconf.com/apply-meetup-february-2022/#agenda
 
 * Joe Reis, Ternary Data
 * "transformation provides the ROI for data"
-* 
+*
 
 ## To Google
 

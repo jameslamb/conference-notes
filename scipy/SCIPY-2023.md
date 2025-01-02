@@ -43,7 +43,7 @@
 - a lot of `numpy` routines are "excessively flexible"
     - handle non-array (liist, tuple) inputs
     - handle n-diimensional arrays
-    - handle fulll
+    - handle full
 - improving performance
     - numba
     - C extension
@@ -350,7 +350,7 @@
 
 ### G. from espaloma to SAKE: to brew, distill, and miix force fields with balanced briskness, smmoothness, and intricacy
 
-- 
+-
 
 ## Things to Google / Read
 

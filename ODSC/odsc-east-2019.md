@@ -107,7 +107,7 @@ Boston, MA
     + out of the box AI for Business Users
     + point-click solutions for admins
     + APIs for developers
-- why you need to have a platform: 
+- why you need to have a platform:
     + hiring another data scientist every time you want to build a new app doesn't scale
 - "fix your leaks":
     + frequently, customers want to build models
@@ -120,7 +120,7 @@ Boston, MA
 - data scientists frequently either don't think about all of these productionalization concerns or they only think about them in the narrow space of a single application
 - TransmogrifAI
     + an open-source autoML library for structured data
-    + the main goal was code re-use
+    + the main goal was code reuse
 - AutoML isn't going to replace data scientists! It just makes them more productive and let's them try more ideas
     + think of AutoML as a "tournament of models"
 - you HAVE to design in metrics early
@@ -170,7 +170,7 @@ Boston, MA
 - `tune` is aware of your hardware layout and knows how to do both of these:
     + have one GPU share multiple models
     + have one model benefit from multiple GPUs
-- you can chagne from a single machine to a large cluster with 0 code changes
+- you can change from a single machine to a large cluster with 0 code changes
 - `tune` is compatible with Keras, Tensorflow, Torch, scikit-learn
 - "architecture search" is honestly really similar to hyperparameter search
 - RLlib
@@ -223,7 +223,7 @@ Boston, MA
     + e.g. Robert Moses
 - The first `Hello world` example was written in a tutorial for the language `B`
 - if there is any place that needs more automation right now, it's the government
-- "software is sitll one of the most powerful fulcrums for human potential"
+- "software is still one of the most powerful fulcrums for human potential"
 
 **B. AI and Security**
 
@@ -242,7 +242,7 @@ Boston, MA
 - Alex Lazarevic, Black and decker
 - "six blind men and elephant" story
     + https://en.wikipedia.org/wiki/Blind_men_and_an_elephant
-- "limited experiences often bring partial or innacurate view"
+- "limited experiences often bring partial or inaccurate view"
 - "creation of new products leveraging sensors and data to deliver measurably better or new outcomes"
 - examples cited:
     + Rolls-Royce has started selling data on its engines to airlines so they can track faults and failures
@@ -336,7 +336,7 @@ Boston, MA
     + solution: put time-sensitive stuff in a second one
         * dedicated instance = less dags / tasks = faster scheduling
 - how you get your dag deployed:
-    + make a pull request to a repo run by data engineers 
+    + make a pull request to a repo run by data engineers
 
 **G. ETL with no page duty**
 

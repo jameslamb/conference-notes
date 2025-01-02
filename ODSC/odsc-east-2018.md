@@ -62,7 +62,7 @@ Boston, MA
     + there have been scandals recently at Fox news re: gender discrimination and harassment
     + now imagine you were hired to build a hiring model to help Fox News
     + you might look at the last 20 years of hiring and define it as a supervised problem. Maybe the target is "stayed for 4 years and got promoted"
-    + data science is just going to learn the biases that existed...it's going to 
+    + data science is just going to learn the biases that existed...it's going to
 - on crime:
     - only around half of murders lead to arrests
     - reported crimed != crimes
@@ -83,7 +83,7 @@ Boston, MA
 - personal background
     - "Fork me on Github"...hell of a pitch lol
     - He started wise.io
-    - co-founder of Berkeley Insitute for Data Science (BIDS)
+    - co-founder of Berkeley Institute for Data Science (BIDS)
 - "experts do not scale"
 - the pitch for Wise.IO:
     + tickets come in from customers
@@ -119,7 +119,7 @@ Boston, MA
     + use physical models as an input
     + Reinforcement learning
         * transfer learning with updates in the real world
-    + try building networks with physical constrints into models
+    + try building networks with physical constraints into models
         * CV: GVNN (Handa)
         * "QCD-Aware Recursive NN for Jet Physics"
     + KEY POINT: you could use a physical model and then use data-driven approaches to explaining the residuals from the physical model
@@ -192,7 +192,7 @@ Boston, MA
     + h20.ai autoML
         * really nice web interface
     + devol (python)
-- commerical autoML tools:
+- commercial autoML tools:
     + DataRobot
     + H2O.ai Driverless AI
     + Google AutoML
@@ -209,20 +209,20 @@ Boston, MA
 - autoML is actually going to expose the need for people who can "think like a data scientist"
     + collecting and curating the right data
     + thinking like a data scientist
-- meta-learning is abot automating the automation of automation
+- meta-learning is about automating the automation of automation
 - autoML slides (kicks off a download) --> bit.ly/2HS01Rr
 
 **E. R Packages for Team Collaboration**
 
 - speaker: STEPHANIE KIRMER!!!
-- note to self: 
+- note to self:
 - "I'm not going to dictate THE single way to write R packages or structure your DS workflow"
 - DS teams without structured, intentional collaboration leak knowledge and waste resources
 - "I'm proposing we steal tools from software engineering for how you do data science"
 - ahhhh she showed the UptakeOpenSource page!
 - made the great point that you can actually show off this professionalism around code management to new candidates to convince them that your org is legit
 - "we have a responsibility as users of open source code to contribute back"
-- internal leadship and commitment is so important. 
+- internal leadship and commitment is so important.
     - People need to be recognized for the hard work they do
     - if nobody cares about open source, people will stop doing it
 - "robust documentation is the difference between tools that no one will use and building things that will become central to your teammates' workflows"
@@ -367,7 +367,7 @@ Boston, MA
 
 - speaker: Josh Day
 - https://github.com/joshday/Talks/tree/master/ODSC2018_JuliaDB_OnlineStats
-- "Julia works because we built it frmo the ground up"
+- "Julia works because we built it from the ground up"
 - we have:
     + meta-programming
     + JIT compilation for fast for loops
@@ -387,7 +387,7 @@ Boston, MA
 - you have to write different `get()` code based on knowledge of your data being an `NDSparse` thing or a regular table
 - plotting a summary of a large dataset:
     + `Partition` and `IndexedPartition`
-    + your brain can't comprehend a million points, bu you could use index stats (on the indexes the DB already knows about) as the plotting inputs
+    + your brain can't comprehend a million points, but you could use index stats (on the indexes the DB already knows about) as the plotting inputs
 - JuliaBox.com to run julia in your browser
 
 
@@ -410,4 +410,3 @@ Boston, MA
 - multi-argmed bandit
 - Onnyx
 - scikit `partial_fit`
-

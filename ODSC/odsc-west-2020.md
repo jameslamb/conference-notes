@@ -34,7 +34,7 @@ Virtual
     - "AutoML is not a useful thing for computer vision"
     - "AutoML is an accelerant for a data scientist, not a replacement"
 
-**D. Topic-Adjusted Visibility Metric for Scientific Aritcles**
+**D. Topic-Adjusted Visibility Metric for Scientific Articles**
 
 - Tian Zheng, Columbia University
 - the raw data in this study was citations
@@ -44,7 +44,7 @@ Virtual
         - text in articles
         - citations among them
 - connectivity of article in citation network depends on:
-    - topic compatibility of reseach fields
+    - topic compatibility of research fields
     - articles visibility to articles in a position to cite it
 - LDA
     - uncover topics from text (bag-of-words)
@@ -58,7 +58,7 @@ Virtual
 
 **E. Making Deep Learning Efficient**
 
-- deep learning an deeep neural nets are "a subset of machine learning"
+- deep learning an deep neural nets are "a subset of machine learning"
 - why is deep learning getting better?
     - improvements in algorithms from research focus
     - data availability
@@ -79,7 +79,7 @@ Virtual
 - SqueezeNet: trying to get the same performance gains as AlexNet, but with less parameters
 - "when I think about why we've had big improvements in deep learning, I don't think of innovation in neural net architectures as a major reason"
 - he thinks the hardware improvements have been the most important factor in improved performance from DL
-- Deepscale - aquired by Tesla
+- Deepscale - acquired by Tesla
     - "Why Tesla quietly acquired deepscale, a company specializing in 'squeezing' AI"
 - ClickIt: a Chrome plugin that thinks it can identify a piece of clothing from a Youtube video
 - natural language understanding: GLUE benchmark
@@ -90,7 +90,7 @@ Virtual
     - then each processor sends back the results of one iteration, and those results are blended in some way to update the global model
 - recommendation systems are probably the least likely to be moved to the edge
 - effective use of deep learning = EFFICIENT use of deep learning
-- 
+-
 
 **F. Bayesian Workflow as Demonstrated with a Coronavirus Example**
 
@@ -215,7 +215,7 @@ Virtual
 - started talking about Ray
     - described it as "universal framework for distributed computing (Python and Java)"
 - key features of Ray:
-    - execute funcitons as "tasks", classes as "actors"
+    - execute functions as "tasks", classes as "actors"
     - asynchronous execution
     - distributed data
 - components:
@@ -249,7 +249,7 @@ Virtual
         - mixed-precision training
 - ONNX runtime knows which old memory can be reclaimed, base on the graph
 
-**E. The State of Severless and Applications to AI**
+**E. The State of Serverless and Applications to AI**
 
 - Joe Hellerstein, Berkeley, Trifacta
 - functions-as-a-service (FaaS) as way to "program the cloud"

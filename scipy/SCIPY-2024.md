@@ -169,7 +169,7 @@ G = nx.from_pandas_edgelist(
 ### G. Introducing nanoarrow: the world's tiniest Arrow Implementation
 
 * speaker: Dewey Dunningham (Voltron data)
-* `cudf` got a great shout-out! "it's one of the coolest htings I've participated in"
+* `cudf` got a great shout-out! "it's one of the coolest things I've participated in"
 * data-sharing protocols
     - `PyBuffer`
     - `DLPack` (specific to the GPU)
