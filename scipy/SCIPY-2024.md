@@ -119,22 +119,177 @@ G = nx.from_pandas_edgelist(
 )
 ```
 
+### H. Lightning talks
+
+* `conda-store` = reproducible conda environments (demo'd with nebari)
+* `nvmath-python` (Segey Maydanov)
+* checkout out reactive functions in `panel` / `holoviz`
+    - gave the example of an expression in a Jupyter cell dependent on a slider
+
+## Day 2
+
+### A. Keynote
+
+* "just refer to deep learning as 'non-linear regression' and people will relax"
+
+### B. tools plenary
+
+* `nextworkx` alternative backgrounds:
+    - `nx-parallel` (to use joblib)
+    - `nx-cuGraph` (to use GPU based algorithms)
+    - `graphblas-algorithms` (for GraphBLAS implementations)
+
+### C. New Developments in Open Source Computational Economics
+
+* "a lot of economics work is being done in Julia now"
+* "you can go straight from SymPy to JAX now"
+
+### D. NumPy 2.0 BoF
+
+* build-related stuff (`meson-build`) was a problem for some folks
+
+### E. When is Rust beneficial for Data Scientists?
+
+* speaker: Akshay Gupta
+* this talk is about re-writing stuff :sparkles: in rust :sparkles:
+* `polars` has a plugin system
+* "given enough eyeballs, all bugs are shallow"
+    - writing something that few people will understand is risky because it means few people will read it and therefore find bugs
+
+### F. Building Daft: Python + Rust = a better distributed query engine
+
+* speaker: Jay Chia
+* Daft can be scaled up to be distributed via `ray`
+* multimodal data: Daft supports columns of images :whoa:
+* things to look into:
+    - `[pyfunction]`
+    - `py.allow_threads()` = drop the GIL from a Python thread
+* great talk!
+
+### G. Introducing nanoarrow: the world's tiniest Arrow Implementation
+
+* speaker: Dewey Dunningham (Voltron data)
+* `cudf` got a great shout-out! "it's one of the coolest htings I've participated in"
+* data-sharing protocols
+    - `PyBuffer`
+    - `DLPack` (specific to the GPU)
+    - `DataFrame`
+    - `Arrow`
+* `cudf` was highlighted 2 different times in this talk
+* "distributing a package with a `pyarrow` dependency is pretty difficult"
+    - there is a `nanoarrow-python`: https://arrow.apache.org/nanoarrow/latest/getting-started/python.html
+
+### H. Dante’s Externo: Injecting Python Functions into a Template-Driven CUDA C++ Framework
+
+* speaker: Braxton Cuneo
+* follow-up to MC/DC test from Day 1
+* "GPUs rely on single-instruction-multiple-thread (SIMT) processing"
+* GPUs favor:
+    - threads within the same warp taking the same paths in a program
+    - higher data locality
+* making more things async was key to being able to run on GPU and CPU
+* "the ffi sandwich"
+* great speaker
+* "PTX isn't linkable"
+    - so you have to generate object files with RDC (relocatable device code) and PIC (position-independent code)
+    - `nvcc -dlink`
+* "object mode" (in the context of "the CUDA array interface")
+    - https://numba.pydata.org/numba-doc/latest/glossary.html#term-object-mode
+* this talk had lots of critical feedback for numba, I'd almost say it was "delivered in anger". Really liked it1
+
+### I. Lightning Talks
+
+* `swiftascmaps` (color maps based on Taylor Swift album covers)
+* MyST
+* `renovate` talk said that the project is great and maintainers respond really quickly to questions
+
+## Day 3
+
+### A. Scikit-build-core: A modern build-backend for CPython C/C++/Fortran/Cython extensions. SciPy 2024
+
+* speaker: jean-christophe fillion-robin
+* `scikit-build` was released as PyCMAKe at SciPy 2014
+* oh you can use `scikit-build-core` and `pybind11` together
+
+```toml
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
+```
+
+* PEP 517 allows the build backend to dynamically update the build dependencies
+* features:
+    - `site-packages` added to CMake search path
+* default editable mode: detect changes, copy files into build tree
+* in-place mode: similar to `setup.py build_ext --inplace`
+* you can generate files!
+
+```toml
+[[tool.scikit-build.overrides]]
+```
+
+### B. Ibis: because SQL is everywhere and so is Python
+
+* speaker: Gil Forsyth
+* GREAT talk
+* "the interface and the engine (for dataframe parsing) are not the same"
+* "Ibis provides a Pythonic dataframe interface to 20+ engines"
+* SQL had different dialects, so saying the interface is SQL is hiding a lot of stuff
+* "SQL has a standard, but it ain't standard"
+* Ibis uses `sqlglot` heavily, as part of its `compile()` step
+
+### C. ITK-Wasm: Universal spatial analysis and visualization
+
+* speaker: matt mccormick (Kitware)
+* WASM
+    - a virtual binary instruction set for a simple, abstract stack-based machine
+    - runs in secure sandbox
+    - portable
+    - fast
+* these features tend to make WebAssembly stuff highly sustainable (it should run for years)
+* emscripten is a toolchain for compiling C/C++ stuff to WASM
+    - example: `pyodide`
+* ITK-Wasm enables spatial scientific C/C++ code usage via Wasm
+
+### D. Lightning talks
+
+* there was a talk where they piped the video camera to ChatGPT to generate text in the way David Attenboro (the Planet Earth narrarator) would talk, and then that text to a voice-generator thing, and playt it out loud
+* how to use GPUs on CI/CD
+    - see conda-forge `open-gpu-server` (Quansight)
+    - ubicloud-gpu
+    - get a T4 GitHub Actions runner from NVIDIA
+
 ## Things to Google / Read
 
+* abandoned.ai
 * Accelerate BLAS/LAPACK (Apple)
-* "unincode sandwich" (`astropy`)
+* Another Open Source Podcast - "Parents of Open Source"
+* arm runners from ubicloud:
+    - https://www.ubicloud.com/blog/ubicloud-hosted-arm-runners-100x-better-price-performance
+* CMake's "File API"
+* "Getting to Yes" (book)
+* github.com/apache/arrow-nanoarrow
+* "unicode sandwich" (`astropy`)
 * BoTorch (bayesian optimization)
+* `cuda.declare_device()` (in `numba`)
 * DataTree (`xarray`)
+* `dockcross` (https://github.com/dockcross/dockcross)
+* ECON-Ark
+* `einops` (https://einops.rocks/)
 * Great Tables (Posit)
 * Harmonize (templating)
 * IbisML (`ibis-ml`)
     - claimed XGBoost support
 * Kokkos / Raja
+* `marimo` (notebooks)
+* MyST (https://myst-parser.readthedocs.io/en/latest/)
 * Numba `@njit`
 * NumPy 2.0 DType API
 * `pins` (Posit)
     - https://pins.rstudio.com/
-* `polars`
+* `polars` & `polars` plugin system
 * RisingWave
+* `scikit-learn-intelex` (Intel(R) extension for scikit-learn)
+* WebAssembly System Interface (WASI)
 * `vetiver` (Posit)
 * xarray `NamedArray`
