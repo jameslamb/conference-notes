@@ -577,7 +577,7 @@ URL: https://www.opendatascience.com/tag/odsc-west-2015/
 - speaker: [James Powell](https://twitter.com/dontusethiscode)
 - key: "other people's code is bad code"
 - readwatch - breakpoint every time a variable is accessed
-- "goode code is code I wrote, abd code is code you wrote"
+- "good code is code I wrote, bad code is code you wrote"
 - code reviews are purely political
 - unit tests are bureaucratic, not scientific
 - "most code is an artefact of some business process"
